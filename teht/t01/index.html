@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tehtävä 1</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+</head>
+
+<body>
+
+    <header>
+
+        <div class="container">
+            <div class="logo"><a href="../../index.html">Joannan Javascript-ohjelmia</a></div>
+            <nav>
+                <ul>
+                    <li><a href="../../../ohjelmointi/teht/index.html">Tehtäviä</a></li>
+                    <li><a href="../../../ohjelmointi/luvut/index.html">Luvut-ohjelma</a></li>
+                    <li><a href="../../../ohjelmointi/robotto/index.html">Robotto-ohjelma</a></li>
+                    <li><a href="../../../ohjelmointi/ventti/index.html">Ventti-ohjelma</a></li>
+                    <li><a href="#yhteystiedot">Yhteystiedot</a></li>
+
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <br>
+    <br>
+    <h1 id="my_id">Tässä on tehtävän numero 1 sivu</h1>
+    <br>
+
+    <h2>Mitä JavaScriptilla voi tehdä?</h2>
+    <p id="demo">JavaScript voi muttaa HTML sisältöä.</p>
+    <button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Klikkaa
+        minua!</button>
+    <hr>
+    <p>Muuttaa HTML attribuutin arvoa.</p>
+
+    <button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Valo päälle</button>
+    <img id="myImage" src="pic_bulboff.gif" style="width:100px">
+    <button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Valo pois</button>
+
+    <hr>
+    <p id="demo2">JavaScript voi muuttaa HTML elementin tyylin.</p>
+    <br>
+    <br>
+    <button type="button" onclick="document.getElementById('demo2').style.fontSize='35px'">Klikkaa minua!</button>
+    <hr>
+    <p id="demo3">JavaScript voi piilottaa HTML elementin.</p>
+    <button type="button" onclick="document.getElementById('demo3').style.display='none'">Klikkaa minua!</button>
+    <hr>
+    <p>JavaScript voi tuoda näkyviin HTML elementin.</p>
+
+    <p id="demo4" style="display:none">Hello JavaScript!</p>
+    <button type="button" onclick="document.getElementById('demo4').style.display='block'">Klikkaa minua!</button>
+    <br>
+    
+    <footer id="yhteystiedot">
+        <div class="footer">
+
+            <p class="copyright">Copyright &copy; Minun Javascript-ohjelmat 2022</p>
+
+            <p class="copyright">Joanna Rantakangas, joanna.rantakangas@gmail.com</p>
+        </div>
+    </footer>
+</body>
+
+</html>

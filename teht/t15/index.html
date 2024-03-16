@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tehtävä 15</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+
+    <header>
+
+        <div class="container">
+            <div class="logo"><a href="../../index.html">Joannan Javascript-ohjelmia</a></div>
+            <nav>
+                <ul>
+                    <li><a href="../../../ohjelmointi/teht/index.html">Tehtäviä</a></li>
+                    <li><a href="../../../ohjelmointi/luvut/index.html">Luvut-ohjelma</a></li>
+                    <li><a href="../../../ohjelmointi/robotto/index.html">Robotto-ohjelma</a></li>
+                    <li><a href="../../../ohjelmointi/ventti/index.html">Ventti-ohjelma</a></li>
+                    <li><a href="#yhteystiedot">Yhteystiedot</a></li>
+
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <br><br>
+        <br>
+        <br>
+        <h1 id="my_id">Tässä on tehtävän numero 15 sivu</h1>
+        <br>
+        <br>
+        <br>
+        <form name="lomake">
+            <label for="maakoodi">Maakoodi:</label>
+            <input type="text" id="maakoodi" name="maakoodi" pattern="[A-Za-z]{3}" title="Kolmikirjainen maakoodi" required><br><br>
+            <input type="submit"value= "Lähetä">
+        </form>
+        <br>
+        <br>
+        <form name= "form1"  onsubmit="return tarkistaSposti()">
+            <label for="Sähköpostiosoite">Sähköpostiosoite:</label>
+            <input type="text" id="Sähköpostiosoite" name="Sähköpostiosoite"><br><br>
+            <input type="submit" value="Lähetä">
+
+        </form>
+
+        
+
+    </main>
+
+    <footer id="yhteystiedot">
+        <div class="footer">
+
+            <p class="copyright">Copyright &copy; Minun Javascript-ohjelmat 2022</p>
+
+            <p class="copyright">Joanna Rantakangas, joanna.rantakangas@gmail.com</p>
+        </div>
+    </footer>
+    <script src="skriptit.js"></script>
+</body>
+
+</html>

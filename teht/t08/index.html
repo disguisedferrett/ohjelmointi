@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tehtävä 8</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+
+    <header>
+
+        <div class="container">
+            <div class="logo"><a href="../../index.html">Joannan Javascript-ohjelmia</a></div>
+            <nav>
+                <ul>
+                    <li><a href="../../../ohjelmointi/teht/index.html">Tehtäviä</a></li>
+                    <li><a href="../../../ohjelmointi/luvut/index.html">Luvut-ohjelma</a></li>
+                    <li><a href="../../../ohjelmointi/robotto/index.html">Robotto-ohjelma</a></li>
+                    <li><a href="../../../ohjelmointi/ventti/index.html">Ventti-ohjelma</a></li>
+                    <li><a href="#yhteystiedot">Yhteystiedot</a></li>
+
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <br><br>
+        <br>
+        <br>
+        <h1 id="my_id">Tässä on tehtävän numero 8 sivu</h1>
+        <br>
+        <button id="myBtn" type="button">Mitä kello on?</button>
+        <p id="demo"></p>
+        <br>
+        <h2 onclick="this.innerHTML='Hupsis!'">Klikkaa minua!!</h2>
+        <br>
+        Anna nimesi: <input type="text" id="fname" onchange="upperCase()">
+        <br>
+        <br>
+        <br>
+        <div id="hiiri" onmouseover="mOver(this)" onmouseout="mOut(this)">Tuo hiiri päälleni</div>
+    </main>
+
+    <footer id="yhteystiedot">
+        <div class="footer">
+
+            <p class="copyright">Copyright &copy; Minun Javascript-ohjelmat 2022</p>
+
+            <p class="copyright">Joanna Rantakangas, joanna.rantakangas@gmail.com</p>
+        </div>
+    </footer>
+    <script src="skriptit.js"></script>
+</body>
+
+</html>

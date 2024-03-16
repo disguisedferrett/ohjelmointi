@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tehtävä 12</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+
+    <header>
+
+        <div class="container">
+            <div class="logo"><a href="../../index.html">Joannan Javascript-ohjelmia</a></div>
+            <nav>
+                <ul>
+                    <li><a href="../../../ohjelmointi/teht/index.html">Tehtäviä</a></li>
+                    <li><a href="../../../ohjelmointi/luvut/index.html">Luvut-ohjelma</a></li>
+                    <li><a href="../../../ohjelmointi/robotto/index.html">Robotto-ohjelma</a></li>
+                    <li><a href="../../../ohjelmointi/ventti/index.html">Ventti-ohjelma</a></li>
+                    <li><a href="#yhteystiedot">Yhteystiedot</a></li>
+
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <br><br>
+        <br>
+        <h1 id="my_id">Tässä on tehtävän numero 12 sivu</h1>
+        <br>
+        <form name="lomake" method="post">
+            <label for="fname">Etunimi:</label><br>
+            <input type="text" id="name" name="etunimi" required><br>
+            <label for="lname">Sukunimi:</label><br>
+            <input type="text" id="lname" name="sukunimi" required><br><br>
+            <input type="submit" value="Lähetä">
+          </form>
+        <br>
+        <form name="lomake1" onsubmit="tarkistaLomake()" method="post">
+            <label for="fname2">Etunimi:</label><br>
+            <input type="text" id="name2" name="etunimi"><br>
+            <label for="lname">Sukunimi:</label><br>
+            <input type="text" id="lname" name="sukunimi"><br><br>
+            <input type="submit" value="Lähetä">
+          </form>
+        <br>
+        <form name="lomake2"  method="post">
+            <label for="fname">Etunimi:</label><br>
+            <input type="text" id="name" name="etunimi" required><br>
+            <label for="lname">Sukunimi:</label><br>
+            <input type="text" id="lname" name="sukunimi" required><br><br>
+            <label for="ika">Ikä:</label><br>
+            <input type="number" id="ika" name= "Ikä:" min="1" max="18" required><br><br>
+            <input type="submit" value="Lähetä">
+          </form>
+
+
+    </main>
+
+    <footer id="yhteystiedot">
+        <div class="footer">
+
+            <p class="copyright">Copyright &copy; Minun Javascript-ohjelmat 2022</p>
+
+            <p class="copyright">Joanna Rantakangas, joanna.rantakangas@gmail.com</p>
+        </div>
+    </footer>
+    <script src="skriptit.js"></script>
+</body>
+
+</html>

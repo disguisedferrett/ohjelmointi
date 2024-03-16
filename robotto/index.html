@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <title>Robotto</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+</head>
+
+<body>
+
+    <header>
+
+        <div class="container">
+            <div class="logo"><a href="../../ohjelmointi/index.html">Joannan Javascript-ohjelmia</a></div>
+            <nav>
+                <ul>
+                    <li><a href="../../ohjelmointi/teht/index.html">Tehtäviä</a></li>
+                    <li><a href="../../ohjelmointi/luvut/index.html">Luvut-ohjelma</a></li>
+                    <li><a href="../robotto/index.html  ">Robotto-ohjelma</a></li>
+                    <li><a href="../../ohjelmointi/ventti/index.html">Ventti-ohjelma</a></li>
+                    <li><a href="../../ohjelmointi/DOM/index.html">Dom-ohjelma</a></li>
+                    <li><a href="#yhteystiedot">Yhteystiedot</a></li>
+
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main id="hero-banner">
+        <ul>
+            <div id="teksti">
+                <h1>Tässä on Robotto-ohjelma</h1>
+                <p>Robotti vilkuttaa komennolla robotto.wave();</p>
+                <p>Robotti hyppii komennolla robotto.jump();</p>
+                <p>Robotti kävelee komennolla robotto.walk();</p>
+                <p>Kun haluat robotin lopettavan, paina "Lopeta" </p>
+            </div>
+            <br>
+            <br>
+            <ul>
+                <input type="text" id="kasky">
+                <br>
+                <br>
+                <input type="button" id="laheta" value="Suorita" onclick="kaskyt()">
+                <input type="button" id="tyhjenna" value="Lopeta" onclick="pois()">
+                <br>
+                <br>
+                <br>
+                <br>
+                <img class="robotto" id="stand" src="r1.png" width="50" height="200">
+                <div id="kuva"></div>
+            </ul>
+        </ul>
+
+
+    </main>
+
+    <footer id="yhteystiedot">
+        <div class="footer">
+
+            <p class="copyright">Copyright &copy; Minun Javascript-ohjelmat 2022</p>
+
+            <p class="copyright">Joanna Rantakangas, joanna.rantakangas@gmail.com</p>
+        </div>
+    </footer>
+    <script src="skriptit.js"></script>
+</body>
+
+</html>
